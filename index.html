@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maracutaia.fm</title>
+</head>
+
+<style>
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+</style>
+
+<body>
+
+    <div class="image-container">
+        <!-- Your image code here -->
+    </div>
+
+    <script>
+        // Array of image paths
+        var imagePaths = [
+            "1.png",
+            "2.png",
+            "3.png"
+        ];
+
+        // Get a random index from the array
+        var randomIndex = Math.floor(Math.random() * imagePaths.length);
+
+        // Get the random image path
+        var randomImagePath = imagePaths[randomIndex];
+
+        // Render the image
+        document.querySelector(".image-container").innerHTML = `<img src="${randomImagePath}" alt="Maracutaia.fm">`;
+    </script>
+</body>
+</html>
