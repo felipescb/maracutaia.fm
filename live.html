@@ -4,86 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>live | maracutaia.fm</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-
-    <meta name="description" content="A maracutaia.fm é uma plataforma de descoberta musical por óticas não convencionais, um espaço de amantes de música para amantes de música em toda sua diversidade. ">
-    <meta name="keywords" content="podcast, music, culture, interviews, artists">
-    <meta name="author" content="maracutaia.fm">
-    <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-
-</head>
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F8XC49CYPT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F8XC49CYPT');
-</script>
-
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background: black;
-    }
-</style>
-
-
-<body>
-    <div id="player-container" style="max-width: 100%; max-height: 100vh; width: 100%; height: 100vh;">
-        <!-- Content will be dynamically loaded based on URL parameter -->
-    </div>
-
+    <meta http-equiv="refresh" content="0; url=https://listen.maracutaia.fm/live">
     <script>
-        // ============================================
-        // CONFIGURATION - Change these values as needed
-        // ============================================
-        const USE_YOUTUBE = false; // Set to true to show YouTube live, false for radiocult
-        const YOUTUBE_VIDEO_ID = '#'; // Your YouTube live stream video ID (e.g., 'dQw4w9WgXcQ')
-        // ============================================
-        
-        const container = document.getElementById('player-container');
-        
-        if (USE_YOUTUBE && YOUTUBE_VIDEO_ID) {
-            // Create YouTube iframe
-            const youtubeIframe = document.createElement('iframe');
-            youtubeIframe.src = `https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&mute=0`;
-            youtubeIframe.style.width = '100%';
-            youtubeIframe.style.height = '100%';
-            youtubeIframe.style.border = 'none';
-            youtubeIframe.setAttribute('allow', 'autoplay; encrypted-media');
-            youtubeIframe.setAttribute('allowfullscreen', '');
-            container.appendChild(youtubeIframe);
-        } else {
-            // Create radiocult iframe (default)
-            const radiocultIframe = document.createElement('iframe');
-            radiocultIframe.src = 'https://listen.maracutaia.fm/live';
-            radiocultIframe.style.width = '100%';
-            radiocultIframe.style.height = '100%';
-            radiocultIframe.style.border = 'none';
-            container.appendChild(radiocultIframe);
-        }
+        window.location.href = 'https://listen.maracutaia.fm/live';
     </script>
-
+</head>
+<body>
+    <p>Redirecting to <a href="https://listen.maracutaia.fm/live">listen.maracutaia.fm/live</a>...</p>
 </body>
 </html>
